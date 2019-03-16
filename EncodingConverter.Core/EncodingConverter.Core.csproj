@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>B2HN Design</Company>
+    <Authors>Ergun Batuhan Öktem</Authors>
+    <Copyright>Copyright © 2019 Ergun Batuhan Öktem</Copyright>
+    <PackageLicenseUrl>https://github.com/batuhanoktem/EncodingConverter/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/batuhanoktem/EncodingConverter</RepositoryUrl>
+    <PackageReleaseNotes>First version</PackageReleaseNotes>
+    <PackageTags>encoding, text, utf8, utf-8, utf16, utf-16, utf32, utf-32, iso8859-1, iso8859-9</PackageTags>
+    <Description>EncodingConverter.Core is a C# wrapper for EncodingConverter C library. Text files can be easily converted between UTF-8, UTF-16, UTF-32, ISO8859-1, ISO8859-9.</Description>
+    <PackageProjectUrl>https://github.com/batuhanoktem/EncodingConverter</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\lib\$(Configuration)\*.dll" Pack="true" PackageCopyToOutput="true">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
