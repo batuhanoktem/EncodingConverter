@@ -1,4 +1,5 @@
 # Encoding Converter
+[![NuGet](https://img.shields.io/nuget/v/EncodingConverter.Core.svg)](https://www.nuget.org/packages/EncodingConverter.Core)
 
 ## Donate
   - Every donation will improve the project.
